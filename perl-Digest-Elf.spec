@@ -4,12 +4,12 @@
 Summary:	Digest::Elf Perl module - implementation of the ElfHash algorithm
 Summary(pl):	Modu³ perla Digest::Elf - implementacja algorytmu ElfHash
 Name:		perl-Digest-Elf
-Version:	1.3
-Release:	2
+Version:	1.4
+Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1690451386d40ac0e433534ae747d31c
+# Source0-md5:	59e6737aae2f9efd1a8af8bc8655f575
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
