@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Digest
-%define	pnam	Elf
+%define		pdir	Digest
+%define		pnam	Elf
 Summary:	Digest::Elf - implementation of the ElfHash algorithm
 Summary(pl):	Digest::Elf - implementacja algorytmu ElfHash
 Name:		perl-Digest-Elf
