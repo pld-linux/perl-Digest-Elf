@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Digest
 %define		pnam	Elf
-Summary:	Digest::Elf Perl module - implementation of the ElfHash algorithm
-Summary(pl):	Modu³ Perla Digest::Elf - implementacja algorytmu ElfHash
+Summary:	Digest::Elf - implementation of the ElfHash algorithm
+Summary(pl):	Digest::Elf - implementacja algorytmu ElfHash
 Name:		perl-Digest-Elf
 Version:	1.4
 Release:	1
@@ -15,18 +15,18 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Digest::Elf provides an implimentation of the ElfHash algorithm.
-ElfHash generates resonably unique values from a string in a
-reasonably short period of time. The actual algorith is culled from a
-Dr. Dobbs Journal article, they culled it probably from the source for
-the GNU C complier.
+Digest::Elf Perl module provides an implimentation of the ElfHash
+algorithm.  ElfHash generates resonably unique values from a string in
+a reasonably short period of time.  The actual algorith is culled from
+a Dr. Dobbs Journal article, they culled it probably from the source
+for the GNU C complier.
 
 %description -l pl
-Modu³ Digest::Elf jest implementacj± algorytmu ElfHash. Algorytm ten
-generuje w miarê unikalne warto¶ci dla ³añcuchów znaków w przyzwoitym
-czasie. W³a¶ciwy algorytm jest ¶ci±gniêty z artyku³u z Dr. Dobbs
-Journal, gdzie zosta³ ¶ci±gniêty prawdopodobnie ze ¼róde³ kompilatora
-C z GNU.
+Modu³ Perla Digest::Elf jest implementacj± algorytmu ElfHash. Algorytm
+ten generuje w miarê unikalne warto¶ci dla ³añcuchów znaków w
+przyzwoitym czasie. W³a¶ciwy algorytm jest ¶ci±gniêty z artyku³u z Dr.
+Dobbs Journal, gdzie zosta³ ¶ci±gniêty prawdopodobnie ze ¼róde³
+kompilatora C z GNU.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
