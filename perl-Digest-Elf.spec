@@ -5,12 +5,12 @@ Summary:	Digest::Elf Perl module - implementation of the ElfHash algorithm
 Summary(pl):	Modu³ perla Digest::Elf - implementacja algorytmu ElfHash
 Name:		perl-Digest-Elf
 Version:	1.3
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl-devel >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -31,7 +31,8 @@ C z GNU.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
@@ -46,8 +47,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitearch}/Digest/Elf.pm
-%dir %{perl_sitearch}/auto/Digest/Elf
-%{perl_sitearch}/auto/Digest/Elf/Elf.bs
-%attr(755,root,root) %{perl_sitearch}/auto/Digest/Elf/Elf.so
+%{perl_vendorarch}/Digest/Elf.pm
+%dir %{perl_vendorarch}/auto/Digest/Elf
+%{perl_vendorarch}/auto/Digest/Elf/Elf.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Digest/Elf/Elf.so
 %{_mandir}/man3/*
