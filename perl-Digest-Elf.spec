@@ -6,7 +6,7 @@
 %define		pdir	Digest
 %define		pnam	Elf
 Summary:	Digest::Elf - implementation of the ElfHash algorithm
-Summary(pl):	Digest::Elf - implementacja algorytmu ElfHash
+Summary(pl.UTF-8):   Digest::Elf - implementacja algorytmu ElfHash
 Name:		perl-Digest-Elf
 Version:	1.4
 Release:	1
@@ -25,11 +25,11 @@ a reasonably short period of time.  The actual algorith is culled from
 a Dr. Dobbs Journal article, they culled it probably from the source
 for the GNU C complier.
 
-%description -l pl
-Modu³ Perla Digest::Elf jest implementacj± algorytmu ElfHash. Algorytm
-ten generuje w miarê unikalne warto¶ci dla ³añcuchów znaków w
-przyzwoitym czasie. W³a¶ciwy algorytm jest ¶ci±gniêty z artyku³u z Dr.
-Dobbs Journal, gdzie zosta³ ¶ci±gniêty prawdopodobnie ze ¼róde³
+%description -l pl.UTF-8
+ModuÅ‚ Perla Digest::Elf jest implementacjÄ… algorytmu ElfHash. Algorytm
+ten generuje w miarÄ™ unikalne wartoÅ›ci dla Å‚aÅ„cuchÃ³w znakÃ³w w
+przyzwoitym czasie. WÅ‚aÅ›ciwy algorytm jest Å›ciÄ…gniÄ™ty z artykuÅ‚u z Dr.
+Dobbs Journal, gdzie zostaÅ‚ Å›ciÄ…gniÄ™ty prawdopodobnie ze ÅºrÃ³deÅ‚
 kompilatora C z GNU.
 
 %prep
