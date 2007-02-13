@@ -6,7 +6,7 @@
 %define		pdir	Digest
 %define		pnam	Elf
 Summary:	Digest::Elf - implementation of the ElfHash algorithm
-Summary(pl.UTF-8):   Digest::Elf - implementacja algorytmu ElfHash
+Summary(pl.UTF-8):	Digest::Elf - implementacja algorytmu ElfHash
 Name:		perl-Digest-Elf
 Version:	1.4
 Release:	1
