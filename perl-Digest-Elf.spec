@@ -59,6 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Digest/Elf.pm
 %dir %{perl_vendorarch}/auto/Digest/Elf
-%{perl_vendorarch}/auto/Digest/Elf/Elf.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Digest/Elf/Elf.so
 %{_mandir}/man3/*
