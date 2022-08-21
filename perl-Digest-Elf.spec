@@ -8,7 +8,7 @@ Summary:	Digest::Elf - implementation of the ElfHash algorithm
 Summary(pl.UTF-8):	Digest::Elf - implementacja algorytmu ElfHash
 Name:		perl-Digest-Elf
 Version:	1.4
-Release:	15
+Release:	16
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Digest/%{pdir}-%{pnam}-%{version}.tar.gz
